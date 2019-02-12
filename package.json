@@ -1,0 +1,27 @@
+{
+  "name": "wxapp-socket.io-client",
+  "version": "1.0.0",
+  "description": "socket.io-client for wxapp",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket.io-client",
+    "wxapp"
+  ],
+  "author": "Ausar",
+  "license": "MIT",
+  "dependencies": {
+    "backo2": "^1.0.2",
+    "component-bind": "^1.0.0",
+    "debug": "^4.1.1",
+    "parseuri": "0.0.5",
+    "socket.io-parser": "^3.3.0",
+    "to-array": "^0.1.4",
+    "wxapp-engine.io-client": "^1.0.0"
+  }
+}
