@@ -1,6 +1,6 @@
 {
   "name": "wxapp-socket.io-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "socket.io-client for wxapp",
   "main": "index.js",
   "directories": {
