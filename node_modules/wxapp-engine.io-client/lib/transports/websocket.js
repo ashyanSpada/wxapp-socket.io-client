@@ -115,11 +115,9 @@ WS.prototype.doOpen = function () {
 WS.prototype.addEventListeners = function () {
     var self = this;
     this.ws.onOpen = (() => {
-        console.log('socket open')
         self.onOpen()
     })
     this.ws.onClose(() => {
-        console.log('socket close')
         self.onClose()
         status = 'closed'
     })
@@ -150,7 +148,6 @@ WS.prototype.write = function (packets) {
         // Sometimes the websocket has already been closed but the browser didn't
         // have a chance of informing us about it yet, in that case send will
         // throw an error
-        console.log(data, 'data', typeof data)
         try {
             self.ws.send({
                 data,

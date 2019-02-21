@@ -22,6 +22,6 @@
     "parseuri": "0.0.5",
     "socket.io-parser": "^3.3.0",
     "to-array": "^0.1.4",
-    "wxapp-engine.io-client": "^1.0.0"
+    "wxapp-engine.io-client": "^1.0.1"
   }
 }
