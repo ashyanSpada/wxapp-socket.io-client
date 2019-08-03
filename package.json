@@ -1,6 +1,6 @@
 {
     "name": "wxapp-socket.io-client",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "微信小程序的socket.io-client",
     "main": "index.js",
     "directories": {
